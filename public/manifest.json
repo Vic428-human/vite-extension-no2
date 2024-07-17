@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "dapp wallet side project",
+    "version": "1.0.0",
+    "description": "dapp wallet 前置作業",
+    "icons": {
+        "16": "flow-logo.png",
+        "48": "flow-logo.png",
+        "128": "flow-logo.png"
+      },
+    "action": {
+        "default_popup": "index.html"
+    },
+    "permissions": ["scripting", "activeTab"],
+    "host_permissions": [
+        "https://*/*",
+        "http://*/*"
+    ]
+  }
